@@ -15,6 +15,7 @@ export default class Main {
   restart() {
 
     this.map = new Map(ctx)
+    console.log(this.map)
 
     this.bindLoop = this.loop.bind(this)
 
